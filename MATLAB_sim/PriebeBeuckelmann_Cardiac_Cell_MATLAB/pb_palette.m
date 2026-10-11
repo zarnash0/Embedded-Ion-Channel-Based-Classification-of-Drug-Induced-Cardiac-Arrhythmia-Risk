@@ -1,0 +1,20 @@
+function pal = pb_palette()
+pal.V     = [0.10 0.10 0.10];
+pal.stim  = [0.55 0.55 0.55];
+pal.m     = [0.00 0.53 0.30];   % INa activation
+pal.v     = [0.80 0.15 0.15];   % INa inactivation (reduced model's v, or h/j in full)
+pal.d     = [0.47 0.25 0.80];   % ICa activation
+pal.f     = [0.85 0.55 0.00];   % ICa inactivation
+pal.to    = [0.64 0.08 0.18];   % Ito inactivation
+pal.X     = [0.00 0.45 0.74];   % IK / combined delayed rectifier
+pal.INa   = [0.00 0.53 0.30];
+pal.ICa   = [0.47 0.25 0.80];
+pal.Ito   = [0.64 0.08 0.18];
+pal.IK    = [0.00 0.45 0.74];
+pal.IK1   = [0.49 0.18 0.56];
+pal.INaK  = [0.30 0.30 0.30];
+pal.INaCa = [0.85 0.33 0.10];
+pal.reduced = [0.00 0.45 0.85];   % reduced-model trace color, comparison plots
+pal.full    = [0.85 0.10 0.30];   % full-model trace color, comparison plots
+pal.grid  = [0.85 0.85 0.85];
+end
