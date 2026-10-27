@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+
+# Regenerate with train.py -- excluded for size (rf_model.pkl is ~140MB,
+# over GitHub's hard limit). gb_model.pkl is kept since it's small.
+rf_model.pkl
+
+# Raw ChEMBL browser export (~35MB) -- regenerate via download.py / clean.py
+# or re-export from ChEMBL; not worth bloating the repo with.
+herg_browser.csv
